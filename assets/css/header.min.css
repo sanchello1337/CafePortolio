@@ -1,0 +1,39 @@
+.header {
+  background-color: #8aa899;
+  z-index: 1000;
+}
+
+.header__container {
+  max-width: 658px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header__nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 34px 0;
+}
+
+.header__link {
+  object-fit: contain;
+  font-size: 1em;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3d3e42;
+}
+
+@media (max-width:767px) {
+  .header__link {
+    font-size: .67em;
+  }
+
+  .header__nav {
+    padding: 20px 0;
+  }
+}
